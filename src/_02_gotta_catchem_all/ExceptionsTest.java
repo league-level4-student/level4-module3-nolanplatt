@@ -32,6 +32,8 @@ class ExceptionsTest {
 	//3. Complete the JUnit test method to test the divide method.
 	@Test
 	public void testDivideByZeroException() {
+        assertEquals(5.0, ExceptionMethods.divide(10, 2), "10 / 2 must be 5");
+
 		
 	}
 	
@@ -42,7 +44,8 @@ class ExceptionsTest {
 	//5. Complete the JUnit test method to test the reverseStringMethod.
 	@Test
 	public void testReverseString() {
-		
+        assertEquals("olleh", ExceptionMethods.reverseString("hello"), "hello must equal olleh");
+
 	}
 	
 	
